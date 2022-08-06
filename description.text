@@ -1,0 +1,10 @@
+A regression analysis usually consists of several stages such as
+variable selection, transformation and residual diagnosis. Inference
+is often made from the selected model without regard to the model
+selection methods that proceeded it. This can result in overoptimistic
+and biased inferences.  We first characterize data analytic actions as
+functions acting on regression models.  We investigate the extent of
+the problem and test bootstrap, jacknife and sample splitting methods
+for ameliorating it. We also demonstrate an interactive LISP-STAT
+system for assessing the cost of the data analysis while it is taking
+place.
